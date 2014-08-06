@@ -28,8 +28,6 @@
 
 - (void)comonInit
 {
-    self.selectionStyle = UITableViewCellSelectionStyleNone;
-
     self.accessoryView = self.accessoryButton;
 }
 

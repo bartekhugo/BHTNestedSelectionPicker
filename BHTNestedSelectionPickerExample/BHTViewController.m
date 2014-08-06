@@ -30,6 +30,7 @@
     
     BHTNestedSelectionPicker *selectionController = [[BHTNestedSelectionPicker alloc] initWithRootObject:rootObject];
     selectionController.delegate = self;
+    selectionController.multipleSelection = YES;
     self.selectionController = selectionController;
     
     [self presentViewController:selectionController.viewController animated:YES completion:nil];

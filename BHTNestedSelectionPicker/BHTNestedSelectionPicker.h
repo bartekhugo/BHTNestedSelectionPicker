@@ -27,5 +27,6 @@
     
 @property (nonatomic, weak) id<BHTNestedSelectionPickerDelegate> delegate;
 @property (nonatomic, readonly) UIViewController *viewController;
+@property (nonatomic, assign) BOOL multipleSelection;       // says if multiple selection of items is allowed
 
 @end

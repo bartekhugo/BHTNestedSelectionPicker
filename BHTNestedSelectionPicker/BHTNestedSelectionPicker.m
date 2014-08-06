@@ -103,7 +103,19 @@
 
 - (void)bhtNestedSelectionTableViewController:(BHTNestedSelectionTableViewController *)controller didSelectObject:(id<BHTNestedSelectionObjectProtocol>)object
 {
-    [self.objectsSelection toggleObjectSelection:object];
+    if (self.multipleSelection)
+    {
+        [self.objectsSelection toggleObjectSelection:object];
+    }
+    else
+    {
+        if ([object.children count] > 0)
+        {
+            [self showSubitemsOfObject:object];
+        }
+        else
+            [self.delegate BHTNestedSelectionPicker:self didFinishWithSelectedLeafObjects:@[object]];
+    }
 }
 
 - (void)bhtNestedSelectionTableViewController:(BHTNestedSelectionTableViewController *)controller didSelectAccessoryForObject:(id<BHTNestedSelectionObjectProtocol>)object
