@@ -10,6 +10,27 @@
 #import "BHTNestedSelectionTableViewController.h"
 #import "BHTNestedSelectionTree.h"
 
+
+@interface BHTNestedSelectionDefaultObject : NSObject <BHTNestedSelectionObjectProtocol>
+
+@property (strong, nonatomic, readwrite) NSString *navigationBarTitle;
+@property (strong, nonatomic, readwrite) NSString *recordName;
+@property (strong, nonatomic, readwrite) NSString *detailName;
+
+@property (strong, nonatomic, readwrite) NSArray *children;
+@property (strong, nonatomic, readwrite) id<BHTNestedSelectionObjectProtocol> parent;
+
+@property (nonatomic, readwrite) NSInteger defaultSelectedOptionIndex;
+
+@end
+
+@implementation BHTNestedSelectionDefaultObject
+
+@end
+
+
+
+
 @interface BHTNestedSelectionPicker () <BHTNestedSelectionTableViewDataSource, BHTNestedSelectionTableViewDelegate>
 
 @property (nonatomic, strong) id<BHTNestedSelectionObjectProtocol> rootObject;
@@ -32,6 +53,14 @@
     _initiallySelected = selectedObjects;
 
     return self;
+}
+
+- (instancetype)initWithObjects:(NSArray *)objects selectedObjects:(NSArray *)selectedObjects
+{
+    BHTNestedSelectionDefaultObject *root = [[BHTNestedSelectionDefaultObject alloc] init];
+    root.children = objects;
+
+    return [self initWithRootObject:root selectedObjects:selectedObjects];
 }
 
 - (UINavigationController *)navigationController
