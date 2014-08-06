@@ -14,9 +14,10 @@
 
 @protocol BHTNestedSelectionPickerDelegate <NSObject>
 
-- (void)BHTNestedSelectionPicker:(BHTNestedSelectionPicker *)controller didFinishWithSelectedLeafObjects:(NSArray *)selectedLeafObjects;
+- (void)bhtNestedSelectionPicker:(BHTNestedSelectionPicker *)controller didFinishWithSelectedLeafObjects:(NSArray *)selectedLeafObjects;
 @optional
-- (BHTNestedSelectionCell *)BHTNestedSelectionPicker:(BHTNestedSelectionPicker *)controller cellWithReuseIdentifier:(NSString *)reuseIdentifier;
+- (BHTNestedSelectionCell *)bhtNestedSelectionPicker:(BHTNestedSelectionPicker *)controller cellWithReuseIdentifier:(NSString *)reuseIdentifier;
+- (Class)bhtNestedSelectionPickerNavigationControllerClass:(BHTNestedSelectionPicker *)controller;
 
 @end
 

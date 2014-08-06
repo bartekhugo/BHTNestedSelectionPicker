@@ -48,13 +48,13 @@
 
 #pragma mark - BHTNestedSelectionPickerDelegate
 
-- (void)BHTNestedSelectionPicker:(BHTNestedSelectionPicker *)ceontroller didFinishWithSelectedLeafObjects:(NSArray *)selectedLeafObjects
+- (void)bhtNestedSelectionPicker:(BHTNestedSelectionPicker *)ceontroller didFinishWithSelectedLeafObjects:(NSArray *)selectedLeafObjects
 {
     self.selectedOptions = selectedLeafObjects;
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
-- (BHTNestedSelectionCell *)BHTNestedSelectionPicker:(BHTNestedSelectionPicker *)controller cellWithReuseIdentifier:(NSString *)reuseIdentifier
+- (BHTNestedSelectionCell *)bhtNestedSelectionPicker:(BHTNestedSelectionPicker *)controller cellWithReuseIdentifier:(NSString *)reuseIdentifier
 {
     BHTNestedSelectionCustomCell *cell = [[BHTNestedSelectionCustomCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:reuseIdentifier];
     

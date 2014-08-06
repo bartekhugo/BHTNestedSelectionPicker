@@ -69,7 +69,11 @@
     {
         BHTNestedSelectionTableViewController *selectionTableViewController = [self selectionTableViewControllerWithObject:self.rootObject];
         
-        UINavigationController *naviagationController = [[UINavigationController alloc] initWithRootViewController:selectionTableViewController];
+        Class navigationControllerClass = [UINavigationController class];
+        if ([self.delegate respondsToSelector:@selector(bhtNestedSelectionPickerNavigationControllerClass:)])
+            navigationControllerClass = [self.delegate bhtNestedSelectionPickerNavigationControllerClass:self];
+        
+        UINavigationController *naviagationController = [[navigationControllerClass alloc] initWithRootViewController:selectionTableViewController];
         _navigationController = naviagationController;
     }
 
@@ -117,15 +121,15 @@
 
 - (void)doneButtonAction:(id)sender
 {
-    [self.delegate BHTNestedSelectionPicker:self didFinishWithSelectedLeafObjects:self.objectsSelection.selectedLeafObjects];
+    [self.delegate bhtNestedSelectionPicker:self didFinishWithSelectedLeafObjects:self.objectsSelection.selectedLeafObjects];
 }
 
 #pragma mark - BHTNestedSelectionTableViewDataSource
 
 - (BHTNestedSelectionCell *)bhtNestedSelectionTableViewController:(BHTNestedSelectionTableViewController *)controller cellWithReuseIdentifier:(NSString *)reuseIdentifier
 {
-    if ([self.delegate respondsToSelector:@selector(BHTNestedSelectionPicker:cellWithReuseIdentifier:)])
-        return [self.delegate BHTNestedSelectionPicker:self cellWithReuseIdentifier:reuseIdentifier];
+    if ([self.delegate respondsToSelector:@selector(bhtNestedSelectionPicker:cellWithReuseIdentifier:)])
+        return [self.delegate bhtNestedSelectionPicker:self cellWithReuseIdentifier:reuseIdentifier];
 
     return nil;
 }
@@ -150,7 +154,7 @@
             [self showSubitemsOfObject:object];
         }
         else
-            [self.delegate BHTNestedSelectionPicker:self didFinishWithSelectedLeafObjects:@[object]];
+            [self.delegate bhtNestedSelectionPicker:self didFinishWithSelectedLeafObjects:@[object]];
     }
 }
 
