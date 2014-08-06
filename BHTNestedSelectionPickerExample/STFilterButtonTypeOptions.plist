@@ -1,0 +1,813 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Options</key>
+	<array>
+		<string>Any type</string>
+		<dict>
+			<key>Hint</key>
+			<string>Cuisine</string>
+			<key>Name</key>
+			<string>Food</string>
+			<key>Options</key>
+			<array>
+				<array>
+					<string>Dinner</string>
+					<string>African Restaurants</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d1c8941735</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Arepa Restaurants</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d152941735</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Argentinian Restaurants</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d107941735</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Brazilian Restaurants</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d16b941735</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Asian Restaurants</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d142941735</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Chinese Restaurants</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d145941735</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Hotpot Restaurants</string>
+					<string>Food</string>
+					<string>52af0bd33cf9994f4e043bdd</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Australian Restaurants</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d169941735</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>BBQ Joints</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d1df931735</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Burger Joints</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d16c941735</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Burrito Places</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d153941735</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Cajun / Creole Restaurants</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d17a941735</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Caribbean Restaurants</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d144941735</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Afghan Restaurants</string>
+					<string>Food</string>
+					<string>503288ae91d4c4b30a586d67</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>American Restaurants</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d14e941735</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Austrian Restaurants</string>
+					<string>Food</string>
+					<string>52e81612bcbc57f1066b7a01</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Belarusian Restaurants</string>
+					<string>Food</string>
+					<string>52e928d0bcbc57f1066b7e97</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Belgian Restaurants</string>
+					<string>Food</string>
+					<string>52e81612bcbc57f1066b7a02</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Bistros</string>
+					<string>Food</string>
+					<string>52e81612bcbc57f1066b79f1</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Buffets</string>
+					<string>Food</string>
+					<string>52e81612bcbc57f1066b79f4</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Cambodian Restaurants</string>
+					<string>Food</string>
+					<string>52e81612bcbc57f1066b7a03</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Caucasian Restaurants</string>
+					<string>Food</string>
+					<string>5293a7d53cf9994f4e043a45</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Comfort Food Restaurants</string>
+					<string>Food</string>
+					<string>52e81612bcbc57f1066b7a00</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Cuban Restaurants</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d154941735</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Czech Restaurants</string>
+					<string>Food</string>
+					<string>52f2ae52bcbc57f1066b8b81</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Eastern European Restaurants</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d109941735</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>English Restaurants</string>
+					<string>Food</string>
+					<string>52e81612bcbc57f1066b7a05</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Ethiopian Restaurants</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d10a941735</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Filipino Restaurants</string>
+					<string>Food</string>
+					<string>4eb1bd1c3b7b55596b4a748f</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Fondue Restaurants</string>
+					<string>Food</string>
+					<string>52e81612bcbc57f1066b7a09</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Halal Restaurants</string>
+					<string>Food</string>
+					<string>52e81612bcbc57f1066b79ff</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Hawaiian Restaurants</string>
+					<string>Food</string>
+					<string>52e81612bcbc57f1066b79fe</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Himalayan Restaurants</string>
+					<string>Food</string>
+					<string>52e81612bcbc57f1066b79fb</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Hungarian Restaurants</string>
+					<string>Food</string>
+					<string>52e81612bcbc57f1066b79fa</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Indonesian Restaurants</string>
+					<string>Food</string>
+					<string>4deefc054765f83613cdba6f</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Jewish Restaurants</string>
+					<string>Food</string>
+					<string>52e81612bcbc57f1066b79fd</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Kosher Restaurants</string>
+					<string>Food</string>
+					<string>52e81612bcbc57f1066b79fc</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Malaysian Restaurants</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d156941735</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Middle Eastern Restaurants</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d115941735</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Modern European Restaurants</string>
+					<string>Food</string>
+					<string>52e81612bcbc57f1066b79f9</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Mongolian Restaurants</string>
+					<string>Food</string>
+					<string>4eb1d5724b900d56c88a45fe</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>New American Restaurants</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d157941735</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Pakistani Restaurants</string>
+					<string>Food</string>
+					<string>52e81612bcbc57f1066b79f8</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Persian Restaurants</string>
+					<string>Food</string>
+					<string>52e81612bcbc57f1066b79f7</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Peruvian Restaurants</string>
+					<string>Food</string>
+					<string>4eb1bfa43b7b52c0e1adc2e8</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Polish Restaurants</string>
+					<string>Food</string>
+					<string>52e81612bcbc57f1066b7a04</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Portuguese Restaurants</string>
+					<string>Food</string>
+					<string>4def73e84765ae376e57713a</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Restaurants</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d1c4941735</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Romanian Restaurants</string>
+					<string>Food</string>
+					<string>52960bac3cf9994f4e043ac4</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Russian Restaurants</string>
+					<string>Food</string>
+					<string>5293a7563cf9994f4e043a44</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>South American Restaurants</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d1cd941735</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Souvlaki Shops</string>
+					<string>Food</string>
+					<string>52e81612bcbc57f1066b79f3</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Spanish Restaurants</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d150941735</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Swiss Restaurants</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d158941735</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Tatar Restaurants</string>
+					<string>Food</string>
+					<string>52e928d0bcbc57f1066b7e98</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Tibetan Restaurants</string>
+					<string>Food</string>
+					<string>52af39fb3cf9994f4e043be9</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Ukrainian Restaurants</string>
+					<string>Food</string>
+					<string>52e928d0bcbc57f1066b7e96</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Vietnamese Restaurants</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d14a941735</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Dim Sum Restaurants</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d1f5931735</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Diners</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d147941735</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Dumpling Restaurants</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d108941735</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Falafel Restaurants</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d10b941735</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>French Restaurants</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d10c941735</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>German Restaurants</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d10d941735</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Gluten-free Restaurants</string>
+					<string>Food</string>
+					<string>4c2cd86ed066bed06c3c5209</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Greek Restaurants</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d10e941735</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Indian Restaurants</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d10f941735</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Italian Restaurants</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d110941735</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Japanese Restaurants</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d111941735</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Korean Restaurants</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d113941735</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Latin American Restaurants</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d1be941735</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Mac &amp; Cheese Joints</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d1bf941735</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Mediterranean Restaurants</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d1c0941735</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Mexican Restaurants</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d1c1941735</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Molecular Gastronomy Restaurants</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d1c2941735</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Moroccan Restaurants</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d1c3941735</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Pizza Places</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d1ca941735</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Ramen / Noodle House</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d1d1941735</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Scandinavian Restaurants</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d1c6941735</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Seafood Restaurants</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d1ce941735</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Southern / Soul Food Restaurants</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d14f941735</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Steakhouses</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d1cc941735</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Sushi Restaurants</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d1d2941735</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Taco Places</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d151941735</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Tapas Restaurants</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d1db931735</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Thai Restaurants</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d149941735</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Turkish Restaurants</string>
+					<string>Food</string>
+					<string>4f04af1f2fb6e1c99f3db0bb</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Wineries</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d14b941735</string>
+				</array>
+				<array>
+					<string>Dinner</string>
+					<string>Wings Joints</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d14c941735</string>
+				</array>
+			</array>
+			<key>Title</key>
+			<string>What Cusine are you looking for ?</string>
+		</dict>
+		<dict>
+			<key>Hint</key>
+			<string>Cuisine</string>
+			<key>Name</key>
+			<string>Coffee/Desert</string>
+			<key>Options</key>
+			<array>
+				<array>
+					<string>Coffee/Desert </string>
+					<string>Cafeterias</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d128941735</string>
+				</array>
+				<array>
+					<string>Coffee/Desert </string>
+					<string>Bagel Shops</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d179941735</string>
+				</array>
+				<array>
+					<string>Coffee/Desert </string>
+					<string>Bakeries</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d16a941735</string>
+				</array>
+				<array>
+					<string>Coffee/Desert </string>
+					<string>Distillery</string>
+					<string>Food</string>
+					<string>4e0e22f5a56208c4ea9a85a0</string>
+				</array>
+				<array>
+					<string>Coffee/Desert </string>
+					<string>Bubble Tea Shops</string>
+					<string>Food</string>
+					<string>52e81612bcbc57f1066b7a0c</string>
+				</array>
+				<array>
+					<string>Coffee/Desert </string>
+					<string>CafÃ©s</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d16d941735</string>
+				</array>
+				<array>
+					<string>Coffee/Desert </string>
+					<string>Coffee Shops</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d1e0931735</string>
+				</array>
+				<array>
+					<string>Coffee/Desert </string>
+					<string>Cupcake Shops</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d1bc941735</string>
+				</array>
+				<array>
+					<string>Coffee/Desert </string>
+					<string>Creperies</string>
+					<string>Food</string>
+					<string>52e81612bcbc57f1066b79f2</string>
+				</array>
+				<array>
+					<string>Coffee/Desert </string>
+					<string>Yogurt</string>
+					<string>Food</string>
+					<string>512e7cae91d4cbb4e5efe0af</string>
+				</array>
+				<array>
+					<string>Coffee/Desert </string>
+					<string>Delis / Bodegas</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d146941735</string>
+				</array>
+				<array>
+					<string>Coffee/Desert </string>
+					<string>Dessert Shops</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d1d0941735</string>
+				</array>
+				<array>
+					<string>Coffee/Desert </string>
+					<string>Donut Shops</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d148941735</string>
+				</array>
+				<array>
+					<string>Coffee/Desert </string>
+					<string>Ice Cream Shops</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d1c9941735</string>
+				</array>
+				<array>
+					<string>Coffee/Desert </string>
+					<string>Juice Bars</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d112941735</string>
+				</array>
+				<array>
+					<string>Coffee/Desert </string>
+					<string>Tea Rooms</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d1dc931735</string>
+				</array>
+			</array>
+			<key>Title</key>
+			<string>What Cusine are you looking for ?</string>
+		</dict>
+		<dict>
+			<key>Hint</key>
+			<string>Type</string>
+			<key>Name</key>
+			<string>Drinks</string>
+			<key>Options</key>
+			<array>
+				<array>
+					<string>Drinks</string>
+					<string>Gastropubs</string>
+					<string>Food</string>
+					<string>4bf58dd8d48988d155941735</string>
+				</array>
+				<array>
+					<string>Drinks</string>
+					<string>Irish Pubs</string>
+					<string>Food</string>
+					<string>52e81612bcbc57f1066b7a06</string>
+				</array>
+				<array>
+					<string>Drinks</string>
+					<string>Bars</string>
+					<string>NightLife Spot</string>
+					<string>4bf58dd8d48988d116941735</string>
+				</array>
+				<array>
+					<string>Drinks</string>
+					<string>Beach Bars</string>
+					<string>NightLife Spot</string>
+					<string>52e81612bcbc57f1066b7a0d</string>
+				</array>
+				<array>
+					<string>Drinks</string>
+					<string>Beer Gardens</string>
+					<string>NightLife Spot</string>
+					<string>4bf58dd8d48988d117941735</string>
+				</array>
+				<array>
+					<string>Drinks</string>
+					<string>Breweries</string>
+					<string>NightLife Spot</string>
+					<string>50327c8591d4c4b30a586d5d</string>
+				</array>
+				<array>
+					<string>Drinks</string>
+					<string>Champagne Bars</string>
+					<string>NightLife Spot</string>
+					<string>52e81612bcbc57f1066b7a0e</string>
+				</array>
+				<array>
+					<string>Drinks</string>
+					<string>Cocktail Bars</string>
+					<string>NightLife Spot</string>
+					<string>4bf58dd8d48988d11e941735</string>
+				</array>
+				<array>
+					<string>Drinks</string>
+					<string>Dive Bars</string>
+					<string>NightLife Spot</string>
+					<string>4bf58dd8d48988d118941735</string>
+				</array>
+				<array>
+					<string>Drinks</string>
+					<string>Gay Bars</string>
+					<string>NightLife Spot</string>
+					<string>4bf58dd8d48988d1d8941735</string>
+				</array>
+				<array>
+					<string>Drinks</string>
+					<string>Hookah Bars</string>
+					<string>NightLife Spot</string>
+					<string>4bf58dd8d48988d119941735</string>
+				</array>
+				<array>
+					<string>Drinks</string>
+					<string>Hotel Bars</string>
+					<string>NightLife Spot</string>
+					<string>4bf58dd8d48988d1d5941735</string>
+				</array>
+				<array>
+					<string>Drinks</string>
+					<string>Karaoke Bars</string>
+					<string>NightLife Spot</string>
+					<string>4bf58dd8d48988d120941735</string>
+				</array>
+				<array>
+					<string>Drinks</string>
+					<string>Lounges</string>
+					<string>NightLife Spot</string>
+					<string>4bf58dd8d48988d121941735</string>
+				</array>
+				<array>
+					<string>Drinks</string>
+					<string>Nightclubs</string>
+					<string>NightLife Spot</string>
+					<string>4bf58dd8d48988d11f941735</string>
+				</array>
+				<array>
+					<string>Drinks</string>
+					<string>Other Nightlife</string>
+					<string>NightLife Spot</string>
+					<string>4bf58dd8d48988d11a941735</string>
+				</array>
+				<array>
+					<string>Drinks</string>
+					<string>Pubs</string>
+					<string>NightLife Spot</string>
+					<string>4bf58dd8d48988d11b941735</string>
+				</array>
+				<array>
+					<string>Drinks</string>
+					<string>Sake Bars</string>
+					<string>NightLife Spot</string>
+					<string>4bf58dd8d48988d11c941735</string>
+				</array>
+				<array>
+					<string>Drinks</string>
+					<string>Speakeasies</string>
+					<string>NightLife Spot</string>
+					<string>4bf58dd8d48988d1d4941735</string>
+				</array>
+				<array>
+					<string>Drinks</string>
+					<string>Sports Bars</string>
+					<string>NightLife Spot</string>
+					<string>4bf58dd8d48988d11d941735</string>
+				</array>
+				<array>
+					<string>Drinks</string>
+					<string>Strip Clubs</string>
+					<string>NightLife Spot</string>
+					<string>4bf58dd8d48988d1d6941735</string>
+				</array>
+				<array>
+					<string>Drinks</string>
+					<string>Whisky Bars</string>
+					<string>NightLife Spot</string>
+					<string>4bf58dd8d48988d122941735</string>
+				</array>
+				<array>
+					<string>Drinks</string>
+					<string>Wine Bars</string>
+					<string>NightLife Spot</string>
+					<string>4bf58dd8d48988d123941735</string>
+				</array>
+			</array>
+			<key>Title</key>
+			<string>Pick the type of drinks place</string>
+		</dict>
+	</array>
+	<key>Title</key>
+	<string>What type of places are you looking for?</string>
+</dict>
+</plist>

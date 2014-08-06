@@ -1,0 +1,10 @@
+PODS:
+  - JTTree (0.1.0)
+
+DEPENDENCIES:
+  - JTTree (~> 0.1.0)
+
+SPEC CHECKSUMS:
+  JTTree: 08cee6e5586c4b3590b25436bde49eef5b2aacb4
+
+COCOAPODS: 0.33.1
