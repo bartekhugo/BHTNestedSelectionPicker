@@ -19,16 +19,16 @@
 @interface BHTViewController () <BHTNestedSelectionPickerDelegate>
 
 @property (strong, nonatomic) BHTNestedSelectionPicker *selectionController;
+@property (strong, nonatomic) NSArray *selectedOptions;
 
+@property (strong, nonatomic) BHTNestedSelectionCustomObject *rootObject;
 @end
 
 @implementation BHTViewController
 
 - (IBAction)showPickerButtonAction:(id)sender
 {
-    BHTNestedSelectionCustomObject *rootObject = [[BHTNestedSelectionCustomObject alloc] initWithDictionary:[NSDictionary dictionaryFromPropertyListWithName:@"STFilterButtonTypeOptions"]];
-    
-    BHTNestedSelectionPicker *selectionController = [[BHTNestedSelectionPicker alloc] initWithRootObject:rootObject];
+    BHTNestedSelectionPicker *selectionController = [[BHTNestedSelectionPicker alloc] initWithRootObject:self.rootObject selectedObjects:self.selectedOptions];
     selectionController.delegate = self;
     selectionController.multipleSelection = YES;
     self.selectionController = selectionController;
@@ -37,10 +37,20 @@
 }
 
 
+-(BHTNestedSelectionCustomObject *)rootObject
+{
+    if (!_rootObject) {
+        BHTNestedSelectionCustomObject *rootObject = [[BHTNestedSelectionCustomObject alloc] initWithDictionary:[NSDictionary dictionaryFromPropertyListWithName:@"STFilterButtonTypeOptions"]];
+        _rootObject = rootObject;
+    }
+    return _rootObject;
+}
+
 #pragma mark - BHTNestedSelectionPickerDelegate
 
 - (void)BHTNestedSelectionPicker:(BHTNestedSelectionPicker *)ceontroller didFinishWithSelectedLeafObjects:(NSArray *)selectedLeafObjects
 {
+    self.selectedOptions = selectedLeafObjects;
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 

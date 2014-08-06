@@ -22,7 +22,7 @@
 
 @interface BHTNestedSelectionPicker : NSObject
 
-- (instancetype)initWithRootObject:(id<BHTNestedSelectionObjectProtocol>)rootObject;
+- (instancetype)initWithRootObject:(id<BHTNestedSelectionObjectProtocol>)rootObject selectedObjects:(NSArray *)selectedObjects;
 //TODO: init with objects?
     
 @property (nonatomic, weak) id<BHTNestedSelectionPickerDelegate> delegate;

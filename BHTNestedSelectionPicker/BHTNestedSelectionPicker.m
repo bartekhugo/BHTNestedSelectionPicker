@@ -13,20 +13,23 @@
 @interface BHTNestedSelectionPicker () <BHTNestedSelectionTableViewDataSource, BHTNestedSelectionTableViewDelegate>
 
 @property (nonatomic, strong) id<BHTNestedSelectionObjectProtocol> rootObject;
+@property (nonatomic, strong) NSArray *initiallySelected;
 @property (nonatomic, strong) UINavigationController *navigationController; //TODO: rename
 
 @property (nonatomic, strong) BHTNestedSelectionTree *objectsSelection;
+
 @end
 
 
 @implementation BHTNestedSelectionPicker
 
-- (instancetype)initWithRootObject:(id<BHTNestedSelectionObjectProtocol>)rootObject
+- (instancetype)initWithRootObject:(id<BHTNestedSelectionObjectProtocol>)rootObject selectedObjects:(NSArray *)selectedObjects;
 {
     if (!(self = [super init]))
         return nil;
     
     _rootObject = rootObject;
+    _initiallySelected = selectedObjects;
 
     return self;
 }
@@ -54,6 +57,10 @@
     if (!_objectsSelection)
     {
         BHTNestedSelectionTree *objectsSection = [[BHTNestedSelectionTree alloc] init];
+        for (id<BHTNestedSelectionObjectProtocol> selectedObject in self.initiallySelected)
+        {
+            [objectsSection toggleObjectSelection:selectedObject];
+        }
         _objectsSelection = objectsSection;
     }
     
@@ -81,7 +88,7 @@
 
 - (void)doneButtonAction:(id)sender
 {
-    [self.delegate BHTNestedSelectionPicker:self didFinishWithSelectedLeafObjects:nil];
+    [self.delegate BHTNestedSelectionPicker:self didFinishWithSelectedLeafObjects:self.objectsSelection.selectedLeafObjects];
 }
 
 #pragma mark - BHTNestedSelectionTableViewDataSource
