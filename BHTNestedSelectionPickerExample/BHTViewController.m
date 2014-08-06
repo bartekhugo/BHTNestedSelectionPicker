@@ -15,6 +15,8 @@
 
 #import "BHTNestedSelectionCustomCell.h"
 
+#import "BHTNestedSelectionCustomNavigationController.h"
+
 
 @interface BHTViewController () <BHTNestedSelectionPickerDelegate>
 
@@ -60,6 +62,10 @@
     
     return cell;
     
+}
+- (Class)bhtNestedSelectionPickerNavigationControllerClass:(BHTNestedSelectionPicker *)controller
+{
+    return [BHTNestedSelectionCustomNavigationController class];
 }
 
 @end
